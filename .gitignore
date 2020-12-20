@@ -1,7 +1,6 @@
 HELP.md
-.gradle
-build/
-!gradle/wrapper/gradle-wrapper.jar
+target/
+!.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**
 !**/src/test/**
 
@@ -13,13 +12,14 @@ build/
 .settings
 .springBeans
 .sts4-cache
+.gradle
 
 ### IntelliJ IDEA ###
 .idea
 *.iws
 *.iml
 *.ipr
-out/
+.DS_Store
 
 ### NetBeans ###
 /nbproject/private/
@@ -27,6 +27,14 @@ out/
 /dist/
 /nbdist/
 /.nb-gradle/
+build/
+bin/
 
 ### VS Code ###
 .vscode/
+
+# intelliJ IDEA project files
+.idea/
+*.iml
+
+src/main/resources/static/src/env/env.js
